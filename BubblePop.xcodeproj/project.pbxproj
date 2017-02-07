@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F59DF1B1CE0E84A00B9B0A9 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F59DF1A1CE0E84A00B9B0A9 /* background.png */; };
+		AA9FCA9C1CE007F700F8E4FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9FCA9B1CE007F700F8E4FD /* main.m */; };
+		AA9FCA9F1CE007F700F8E4FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9FCA9E1CE007F700F8E4FD /* AppDelegate.m */; };
+		AA9FCAA21CE007F700F8E4FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9FCAA11CE007F700F8E4FD /* ViewController.m */; };
+		AA9FCAA51CE007F700F8E4FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA9FCAA31CE007F700F8E4FD /* Main.storyboard */; };
+		AA9FCAA71CE007F700F8E4FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA9FCAA61CE007F700F8E4FD /* Assets.xcassets */; };
+		AA9FCAAA1CE007F700F8E4FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA9FCAA81CE007F700F8E4FD /* LaunchScreen.storyboard */; };
+		AA9FCAB51CE007F800F8E4FD /* BubblePopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9FCAB41CE007F800F8E4FD /* BubblePopTests.m */; };
+		AA9FCAC01CE007F800F8E4FD /* BubblePopUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9FCABF1CE007F800F8E4FD /* BubblePopUITests.m */; };
+		AA9FCAD41CE0086600F8E4FD /* Setting.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9FCAD01CE0086600F8E4FD /* Setting.m */; };
+		AA9FCAD51CE0086600F8E4FD /* Constant.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9FCAD21CE0086600F8E4FD /* Constant.m */; };
+		AA9FCADF1CE0088800F8E4FD /* PlayingFieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9FCAD81CE0088800F8E4FD /* PlayingFieldViewController.m */; };
+		AA9FCAE01CE0088800F8E4FD /* StartupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9FCADA1CE0088800F8E4FD /* StartupViewController.m */; };
+		AA9FCAE11CE0088800F8E4FD /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9FCADC1CE0088800F8E4FD /* SettingViewController.m */; };
+		AA9FCAE21CE0088800F8E4FD /* ScoreBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9FCADE1CE0088800F8E4FD /* ScoreBoardViewController.m */; };
+		AA9FCAE61CE008A400F8E4FD /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9FCAE51CE008A400F8E4FD /* Utility.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA9FCAB11CE007F800F8E4FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA9FCA8F1CE007F700F8E4FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA9FCA961CE007F700F8E4FD;
+			remoteInfo = BubblePop;
+		};
+		AA9FCABC1CE007F800F8E4FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA9FCA8F1CE007F700F8E4FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA9FCA961CE007F700F8E4FD;
+			remoteInfo = BubblePop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F59DF1A1CE0E84A00B9B0A9 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		AA9FCA971CE007F700F8E4FD /* BubblePop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BubblePop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA9FCA9B1CE007F700F8E4FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA9FCA9D1CE007F700F8E4FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA9FCA9E1CE007F700F8E4FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA9FCAA01CE007F700F8E4FD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AA9FCAA11CE007F700F8E4FD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AA9FCAA41CE007F700F8E4FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA9FCAA61CE007F700F8E4FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA9FCAA91CE007F700F8E4FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA9FCAAB1CE007F700F8E4FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA9FCAB01CE007F800F8E4FD /* BubblePopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BubblePopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA9FCAB41CE007F800F8E4FD /* BubblePopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BubblePopTests.m; sourceTree = "<group>"; };
+		AA9FCAB61CE007F800F8E4FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA9FCABB1CE007F800F8E4FD /* BubblePopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BubblePopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA9FCABF1CE007F800F8E4FD /* BubblePopUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BubblePopUITests.m; sourceTree = "<group>"; };
+		AA9FCAC11CE007F800F8E4FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA9FCACF1CE0086600F8E4FD /* Setting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Setting.h; sourceTree = "<group>"; };
+		AA9FCAD01CE0086600F8E4FD /* Setting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Setting.m; sourceTree = "<group>"; };
+		AA9FCAD11CE0086600F8E4FD /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		AA9FCAD21CE0086600F8E4FD /* Constant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constant.m; sourceTree = "<group>"; };
+		AA9FCAD71CE0088800F8E4FD /* PlayingFieldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingFieldViewController.h; sourceTree = "<group>"; };
+		AA9FCAD81CE0088800F8E4FD /* PlayingFieldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingFieldViewController.m; sourceTree = "<group>"; };
+		AA9FCAD91CE0088800F8E4FD /* StartupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartupViewController.h; sourceTree = "<group>"; };
+		AA9FCADA1CE0088800F8E4FD /* StartupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartupViewController.m; sourceTree = "<group>"; };
+		AA9FCADB1CE0088800F8E4FD /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		AA9FCADC1CE0088800F8E4FD /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		AA9FCADD1CE0088800F8E4FD /* ScoreBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreBoardViewController.h; sourceTree = "<group>"; };
+		AA9FCADE1CE0088800F8E4FD /* ScoreBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreBoardViewController.m; sourceTree = "<group>"; };
+		AA9FCAE41CE008A400F8E4FD /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		AA9FCAE51CE008A400F8E4FD /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA9FCA941CE007F700F8E4FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA9FCAAD1CE007F800F8E4FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA9FCAB81CE007F800F8E4FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA9FCA8E1CE007F700F8E4FD = {
+			isa = PBXGroup;
+			children = (
+				AA9FCA991CE007F700F8E4FD /* BubblePop */,
+				AA9FCAB31CE007F800F8E4FD /* BubblePopTests */,
+				AA9FCABE1CE007F800F8E4FD /* BubblePopUITests */,
+				AA9FCA981CE007F700F8E4FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA9FCA981CE007F700F8E4FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA9FCA971CE007F700F8E4FD /* BubblePop.app */,
+				AA9FCAB01CE007F800F8E4FD /* BubblePopTests.xctest */,
+				AA9FCABB1CE007F800F8E4FD /* BubblePopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA9FCA991CE007F700F8E4FD /* BubblePop */ = {
+			isa = PBXGroup;
+			children = (
+				AA9FCAD61CE0086C00F8E4FD /* Model */,
+				AA9FCA9D1CE007F700F8E4FD /* AppDelegate.h */,
+				AA9FCA9E1CE007F700F8E4FD /* AppDelegate.m */,
+				AA9FCAE31CE0089100F8E4FD /* View Controller */,
+				AA9FCAA31CE007F700F8E4FD /* Main.storyboard */,
+				AA9FCAA61CE007F700F8E4FD /* Assets.xcassets */,
+				AA9FCAA81CE007F700F8E4FD /* LaunchScreen.storyboard */,
+				AA9FCAE41CE008A400F8E4FD /* Utility.h */,
+				AA9FCAE51CE008A400F8E4FD /* Utility.m */,
+				AA9FCAAB1CE007F700F8E4FD /* Info.plist */,
+				0F59DF1A1CE0E84A00B9B0A9 /* background.png */,
+				AA9FCA9A1CE007F700F8E4FD /* Supporting Files */,
+			);
+			path = BubblePop;
+			sourceTree = "<group>";
+		};
+		AA9FCA9A1CE007F700F8E4FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA9FCA9B1CE007F700F8E4FD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA9FCAB31CE007F800F8E4FD /* BubblePopTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA9FCAB41CE007F800F8E4FD /* BubblePopTests.m */,
+				AA9FCAB61CE007F800F8E4FD /* Info.plist */,
+			);
+			path = BubblePopTests;
+			sourceTree = "<group>";
+		};
+		AA9FCABE1CE007F800F8E4FD /* BubblePopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA9FCABF1CE007F800F8E4FD /* BubblePopUITests.m */,
+				AA9FCAC11CE007F800F8E4FD /* Info.plist */,
+			);
+			path = BubblePopUITests;
+			sourceTree = "<group>";
+		};
+		AA9FCAD61CE0086C00F8E4FD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AA9FCACF1CE0086600F8E4FD /* Setting.h */,
+				AA9FCAD01CE0086600F8E4FD /* Setting.m */,
+				AA9FCAD11CE0086600F8E4FD /* Constant.h */,
+				AA9FCAD21CE0086600F8E4FD /* Constant.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		AA9FCAE31CE0089100F8E4FD /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AA9FCAA01CE007F700F8E4FD /* ViewController.h */,
+				AA9FCAA11CE007F700F8E4FD /* ViewController.m */,
+				AA9FCAD71CE0088800F8E4FD /* PlayingFieldViewController.h */,
+				AA9FCAD81CE0088800F8E4FD /* PlayingFieldViewController.m */,
+				AA9FCAD91CE0088800F8E4FD /* StartupViewController.h */,
+				AA9FCADA1CE0088800F8E4FD /* StartupViewController.m */,
+				AA9FCADB1CE0088800F8E4FD /* SettingViewController.h */,
+				AA9FCADC1CE0088800F8E4FD /* SettingViewController.m */,
+				AA9FCADD1CE0088800F8E4FD /* ScoreBoardViewController.h */,
+				AA9FCADE1CE0088800F8E4FD /* ScoreBoardViewController.m */,
+			);
+			name = "View Controller";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA9FCA961CE007F700F8E4FD /* BubblePop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA9FCAC41CE007F800F8E4FD /* Build configuration list for PBXNativeTarget "BubblePop" */;
+			buildPhases = (
+				AA9FCA931CE007F700F8E4FD /* Sources */,
+				AA9FCA941CE007F700F8E4FD /* Frameworks */,
+				AA9FCA951CE007F700F8E4FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BubblePop;
+			productName = BubblePop;
+			productReference = AA9FCA971CE007F700F8E4FD /* BubblePop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA9FCAAF1CE007F800F8E4FD /* BubblePopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA9FCAC71CE007F800F8E4FD /* Build configuration list for PBXNativeTarget "BubblePopTests" */;
+			buildPhases = (
+				AA9FCAAC1CE007F800F8E4FD /* Sources */,
+				AA9FCAAD1CE007F800F8E4FD /* Frameworks */,
+				AA9FCAAE1CE007F800F8E4FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA9FCAB21CE007F800F8E4FD /* PBXTargetDependency */,
+			);
+			name = BubblePopTests;
+			productName = BubblePopTests;
+			productReference = AA9FCAB01CE007F800F8E4FD /* BubblePopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA9FCABA1CE007F800F8E4FD /* BubblePopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA9FCACA1CE007F800F8E4FD /* Build configuration list for PBXNativeTarget "BubblePopUITests" */;
+			buildPhases = (
+				AA9FCAB71CE007F800F8E4FD /* Sources */,
+				AA9FCAB81CE007F800F8E4FD /* Frameworks */,
+				AA9FCAB91CE007F800F8E4FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA9FCABD1CE007F800F8E4FD /* PBXTargetDependency */,
+			);
+			name = BubblePopUITests;
+			productName = BubblePopUITests;
+			productReference = AA9FCABB1CE007F800F8E4FD /* BubblePopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA9FCA8F1CE007F700F8E4FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Huu Nghia Quach";
+				TargetAttributes = {
+					AA9FCA961CE007F700F8E4FD = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					AA9FCAAF1CE007F800F8E4FD = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = AA9FCA961CE007F700F8E4FD;
+					};
+					AA9FCABA1CE007F800F8E4FD = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = AA9FCA961CE007F700F8E4FD;
+					};
+				};
+			};
+			buildConfigurationList = AA9FCA921CE007F700F8E4FD /* Build configuration list for PBXProject "BubblePop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA9FCA8E1CE007F700F8E4FD;
+			productRefGroup = AA9FCA981CE007F700F8E4FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA9FCA961CE007F700F8E4FD /* BubblePop */,
+				AA9FCAAF1CE007F800F8E4FD /* BubblePopTests */,
+				AA9FCABA1CE007F800F8E4FD /* BubblePopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA9FCA951CE007F700F8E4FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F59DF1B1CE0E84A00B9B0A9 /* background.png in Resources */,
+				AA9FCAAA1CE007F700F8E4FD /* LaunchScreen.storyboard in Resources */,
+				AA9FCAA71CE007F700F8E4FD /* Assets.xcassets in Resources */,
+				AA9FCAA51CE007F700F8E4FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA9FCAAE1CE007F800F8E4FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA9FCAB91CE007F800F8E4FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA9FCA931CE007F700F8E4FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA9FCADF1CE0088800F8E4FD /* PlayingFieldViewController.m in Sources */,
+				AA9FCAD51CE0086600F8E4FD /* Constant.m in Sources */,
+				AA9FCAA21CE007F700F8E4FD /* ViewController.m in Sources */,
+				AA9FCAE01CE0088800F8E4FD /* StartupViewController.m in Sources */,
+				AA9FCAE11CE0088800F8E4FD /* SettingViewController.m in Sources */,
+				AA9FCA9F1CE007F700F8E4FD /* AppDelegate.m in Sources */,
+				AA9FCAE61CE008A400F8E4FD /* Utility.m in Sources */,
+				AA9FCAD41CE0086600F8E4FD /* Setting.m in Sources */,
+				AA9FCAE21CE0088800F8E4FD /* ScoreBoardViewController.m in Sources */,
+				AA9FCA9C1CE007F700F8E4FD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA9FCAAC1CE007F800F8E4FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA9FCAB51CE007F800F8E4FD /* BubblePopTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA9FCAB71CE007F800F8E4FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA9FCAC01CE007F800F8E4FD /* BubblePopUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA9FCAB21CE007F800F8E4FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA9FCA961CE007F700F8E4FD /* BubblePop */;
+			targetProxy = AA9FCAB11CE007F800F8E4FD /* PBXContainerItemProxy */;
+		};
+		AA9FCABD1CE007F800F8E4FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA9FCA961CE007F700F8E4FD /* BubblePop */;
+			targetProxy = AA9FCABC1CE007F800F8E4FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA9FCAA31CE007F700F8E4FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA9FCAA41CE007F700F8E4FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA9FCAA81CE007F700F8E4FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA9FCAA91CE007F700F8E4FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA9FCAC21CE007F800F8E4FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA9FCAC31CE007F800F8E4FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA9FCAC51CE007F800F8E4FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BubblePop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uts.BubblePop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA9FCAC61CE007F800F8E4FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BubblePop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uts.BubblePop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AA9FCAC81CE007F800F8E4FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BubblePopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uts.BubblePopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BubblePop.app/BubblePop";
+			};
+			name = Debug;
+		};
+		AA9FCAC91CE007F800F8E4FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BubblePopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uts.BubblePopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BubblePop.app/BubblePop";
+			};
+			name = Release;
+		};
+		AA9FCACB1CE007F800F8E4FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BubblePopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uts.BubblePopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BubblePop;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AA9FCACC1CE007F800F8E4FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BubblePopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uts.BubblePopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BubblePop;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA9FCA921CE007F700F8E4FD /* Build configuration list for PBXProject "BubblePop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA9FCAC21CE007F800F8E4FD /* Debug */,
+				AA9FCAC31CE007F800F8E4FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA9FCAC41CE007F800F8E4FD /* Build configuration list for PBXNativeTarget "BubblePop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA9FCAC51CE007F800F8E4FD /* Debug */,
+				AA9FCAC61CE007F800F8E4FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA9FCAC71CE007F800F8E4FD /* Build configuration list for PBXNativeTarget "BubblePopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA9FCAC81CE007F800F8E4FD /* Debug */,
+				AA9FCAC91CE007F800F8E4FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA9FCACA1CE007F800F8E4FD /* Build configuration list for PBXNativeTarget "BubblePopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA9FCACB1CE007F800F8E4FD /* Debug */,
+				AA9FCACC1CE007F800F8E4FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA9FCA8F1CE007F700F8E4FD /* Project object */;
+}
